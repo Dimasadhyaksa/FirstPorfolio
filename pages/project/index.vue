@@ -17,32 +17,7 @@
 </template>
 
 <script setup>
-// const loading = ref(true)
-// const getDatas = async () => {
-//     loading.value = true
-//     const { data, error } = await supabase.from("projects").select()
-//         .order("id", { ascending: false })
-//         .range(0, 5)
-//         .limit(6)
-//     datas.value = data
 
-//     loading.value = false
-//     gsap.fromTo(
-//         projects.value,
-//         { opacity: 0 },
-//         { opacity: 1, duration: 4, ease: 'power2.out' }
-//     )
-// }
-onMounted(() => {
-    getDatas()
-
-
-
-
-
-
-
-})
 </script>
 
 <style>

@@ -17,9 +17,11 @@
                         <p class="text-md font-medium text-secondary md:text-lg text-slate-300">
                             lihat project saya sebelumnya
                         </p>
-                        <!-- <div v-for="card in card" :key="card.id" class="card ">
-                            <img :src="card.cover" class="card-img-top" :alt="card.nama">
-                        </div> -->
+
+                        <div class="card ">
+                            
+                            <p>{{ Projects.nama }}</p>
+                        </div>
 
                     </div>
                 </div>
@@ -56,21 +58,18 @@
 </template>
 
 <script setup>
-// const client = useSupabaseClient()
-// const card = ref([])
 
-// async function getProducts() {
-// const { data, error } = await client
-// .from('card')
-// .select()
-// if(data) {
-// card.value = data
-// }
-// }
+const supabase = useSupabaseClient()
+const Projects = ref([])
 
-// onMounted(() => {
-// getProducts()
-// })
+async function getProjects() {
+    const { data, error } = await supabase
+        .from('projects')
+        .select('*')
+    if(data) {
+        Projects.value = data
+    }
+}
 </script>
 
 <style scoped>
