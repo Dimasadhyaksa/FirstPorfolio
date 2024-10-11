@@ -1,26 +1,18 @@
 <template>
     <div id="main" class="bg-[#27272a]">
-        <Header />
-        <section class="pt-24 pb-10 ">
+        <div class="pt-24 pb-10 ">
             <h4 class="text-center font-semibold text-white text-3xl ">Lets See My Project</h4>
             <p class="text-center font-medium text-base text-slate-300">These are some of the projects I've made</p>
-            <!-- <p v-if="loading" class="custom-loader m-auto text-center"></p> -->
-            <template>
-
-
-</template>
-
-
-</section>
-</div>
-<Footer />
+            <Project />
+        </div>
+    </div>
 </template>
 
 <script setup>
 
 </script>
 
-<style>
+<style scoped>
 .custom-loader {
     width: 45px;
     height: 40px;
