@@ -1,7 +1,7 @@
 <template>
-  <div class=" pt-11">
+  <div class=" pt-36">
     <p v-if="loading" class="custom-loader m-auto text-center"></p>
-    <div class="group portfolio flex flex-wrap mb-16 align-middle hover:no-underline focus:no-underline"
+    <div class="group portfolio flex flex-wrap mb-16 align-middle hover:no-underline focus:no-underline px-5"
       v-for="project in datas" :key="project.id">
       <!-- di gunain di page project -->
       <div class="w-full md:w-6/12 relative h-52 md:h-96">

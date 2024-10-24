@@ -19,17 +19,17 @@
             >
               <ul class="block lg:flex">
                 <li class="group">
-                  <NuxtLink to="#home" class="mx-8 flex py-2 text-sm text-white group-hover:text-orange-300 group-hover:underline"> Home </NuxtLink>
+                  <NuxtLink to="/" class="mx-8 flex py-2 text-sm text-white group-hover:text-orange-300 group-hover:underline"> Home </NuxtLink>
                 </li>
                 <li class="group">
-                  <NuxtLink to="#about" class="mx-8 flex py-2 text-sm text-white group-hover:text-orange-300 group-hover:underline"> About Me </NuxtLink>
+                  <NuxtLink to="/" class="mx-8 flex py-2 text-sm text-white group-hover:text-orange-300 group-hover:underline"> About Me </NuxtLink>
                 </li>
                 <li class="group">
-                  <NuxtLink to="/project/" class="mx-8 flex py-2 text-sm text-white group-hover:text-orange-300 group-hover:underline"> Project </NuxtLink>
+                  <NuxtLink to="/project" class="mx-8 flex py-2 text-sm text-white group-hover:text-orange-300 group-hover:underline"> Project </NuxtLink>
                 </li>
 
                 <li class="group">
-                  <NuxtLink to="#contact" class="mx-8 flex py-2 text-sm text-white group-hover:text-orange-300 group-hover:underline"> Contact </NuxtLink>
+                  <NuxtLink to="/contact" class="mx-8 flex py-2 text-sm text-white group-hover:text-orange-300 group-hover:underline"> Contact </NuxtLink>
                 </li>
                 <!-- <li class="group" v-if="user">
                     <NuxtLink to="#"
