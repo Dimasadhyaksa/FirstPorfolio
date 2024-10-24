@@ -1,6 +1,6 @@
 <template>
-    
-        <div id="home" class="pt-36 bg-no-repeat bg-center bg-fixed bg-cover ">
+
+    <div id="home" class="pt-36 bg-no-repeat bg-center bg-fixed bg-cover ">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full h-16 self-center px-10 lg:w-1/2">
@@ -17,8 +17,7 @@
                 </div>
                 <div class="w-full self-end px-4 lg:w-1/2">
                     <div class="relative mt-10 lg:right-0 lg:mt-9">
-                        <img src="~/assets/image/cat-coding.png" alt="Sandhika Galih"
-                            class="relative z-10 mx-auto max-w-full" />
+                        <img src="~/assets/image/cat-coding.png" alt="" class="relative z-10 mx-auto max-w-full" />
                         <span class="absolute bottom-0 left-1/2 -translate-x-1/2 md:scale-125">
                             <!-- <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#14b8a6"
@@ -35,7 +34,7 @@
                 d="M0,32L12.6,69.3C25.3,107,51,181,76,197.3C101.1,213,126,171,152,154.7C176.8,139,202,149,227,160C252.6,171,278,181,303,176C328.4,171,354,149,379,133.3C404.2,117,429,107,455,138.7C480,171,505,245,531,272C555.8,299,581,277,606,266.7C631.6,256,657,256,682,224C707.4,192,733,128,758,133.3C783.2,139,808,213,834,250.7C858.9,288,884,288,909,266.7C934.7,245,960,203,985,165.3C1010.5,128,1036,96,1061,101.3C1086.3,107,1112,149,1137,149.3C1162.1,149,1187,107,1213,122.7C1237.9,139,1263,213,1288,224C1313.7,235,1339,181,1364,144C1389.5,107,1415,85,1427,74.7L1440,64L1440,320L1427.4,320C1414.7,320,1389,320,1364,320C1338.9,320,1314,320,1288,320C1263.2,320,1238,320,1213,320C1187.4,320,1162,320,1137,320C1111.6,320,1086,320,1061,320C1035.8,320,1011,320,985,320C960,320,935,320,909,320C884.2,320,859,320,834,320C808.4,320,783,320,758,320C732.6,320,707,320,682,320C656.8,320,632,320,606,320C581.1,320,556,320,531,320C505.3,320,480,320,455,320C429.5,320,404,320,379,320C353.7,320,328,320,303,320C277.9,320,253,320,227,320C202.1,320,177,320,152,320C126.3,320,101,320,76,320C50.5,320,25,320,13,320L0,320Z">
             </path>
         </svg>
-    
+
 
         <About />
         <!-- project s -->
@@ -45,56 +44,21 @@
                     d="M0,128L16,138.7C32,149,64,171,96,176C128,181,160,171,192,160C224,149,256,139,288,138.7C320,139,352,149,384,154.7C416,160,448,160,480,144C512,128,544,96,576,101.3C608,107,640,149,672,192C704,235,736,277,768,250.7C800,224,832,128,864,122.7C896,117,928,203,960,202.7C992,203,1024,117,1056,74.7C1088,32,1120,32,1152,37.3C1184,43,1216,53,1248,85.3C1280,117,1312,171,1344,165.3C1376,160,1408,96,1424,64L1440,32L1440,0L1424,0C1408,0,1376,0,1344,0C1312,0,1280,0,1248,0C1216,0,1184,0,1152,0C1120,0,1088,0,1056,0C1024,0,992,0,960,0C928,0,896,0,864,0C832,0,800,0,768,0C736,0,704,0,672,0C640,0,608,0,576,0C544,0,512,0,480,0C448,0,416,0,384,0C352,0,320,0,288,0C256,0,224,0,192,0C160,0,128,0,96,0C64,0,32,0,16,0L0,0Z">
                 </path>
             </svg>
-            <div class="container">
-                <div class="w-full px-4">
-                    <div class="mx-auto mb-16 max-w-xl text-center">
-                        <h2 class="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl">My
-                            Project</h2>
-                        <p class="text-md font-medium text-secondary md:text-lg text-slate-300">
-                            lihat project saya sebelumnya
-                        </p>
-                        
-                    </div>
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mt-8 ">
-                        <div v-for="project in project" :key="project.id" class="bg-white/5 border  p-5 rounded-3xl ">
-                            <NuxtLink :to="`/project/` + project.id">
-                                <img :src="project.image" alt="gamar" class="rounded-2xl mb-5 shadow-xl w-full h-[200px] hover:scale-105 duration-300"
-                                width="400px" height="150px " loading="lazy">
-                            </NuxtLink>
-
-                            <div class="inline-flex items-center mb-2">
-                                <div class="inline-flex items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                    class="w-6 text-slate-500 mr-2 h-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
-                                </svg>
-                                <span class="text-white">{{ project.created_at }}</span>
-                                </div>
-                            </div>
-                                <NuxtLink :to="`/project/` + project.id" class="font-semibold text-slate-700">
-                                <h3 class="text-lg text-white leading-tight font-bold">
-                                {{ project.name }}
-                                </h3>
-                                </NuxtLink>
-                        </div>
-                    </div>
-                </div>
-                
-
-                <div class="flex w-full flex-wrap justify-center px-4 xl:mx-auto xl:w-10/12">
-                    <div class="mb-12 p-4 md:w-1/2">
-                        <div class="flex justify-center">
-                            <NuxtLink to="/project/"
-                                class="text-white font-semibold border border-white py-2 px-5 hover:px-6 rounded-full inline-flex items-center group transform hover:text-primary hover:-translate-y-1 duration-200">
-                                View All Projects
-                                <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-2 duration-200" fill="none"
-                                    stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                                </svg>
-                            </NuxtLink>
-                        </div>
+            <div class="section container pt-10 pb-10">
+                <div class="px-4">
+                    <h2 class="section-heading mb-4 text-center font-bold text-2xl text-white    ">My Project</h2>
+                    <p class="text-center mb-4 text-gray-400 text-md">Lihat project saya sebelumnya^^</p>
+                    <ProjectCard />
+                    <div class="mt-12 text-center">
+                        <NuxtLink to="/project"
+                            class="text-white font-semibold border border-white py-2 px-5 hover:px-6 rounded-full inline-flex items-center group transform hover:text-primary hover:-translate-y-1 duration-200">
+                            View All Projects
+                            <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-2 duration-200" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                            </svg>
+                        </NuxtLink>
                     </div>
                 </div>
             </div>
@@ -112,14 +76,7 @@
 </template>
 
 <script setup>
-
-const supabase = useSupabaseClient()
-
-const { data: project, error} = useAsyncData('project', async() => {
-    const { data, error } = await supabase.from('projects').select('*')
-    if (error) throw error
-    return data
-})
+// import gsap from 'gsap'
 
 </script>
 
