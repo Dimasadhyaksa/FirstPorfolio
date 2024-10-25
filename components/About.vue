@@ -10,7 +10,7 @@
           <p class="text-[#facc15] pt-2">Yuk bisa berteman!!</p>
           <div class="medsos flex item-center pt-2">
             <!-- istagram -->
-            <a href="https://instagram.com/sandhikagalih" target="_blank" class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-[#facc15] hover:bg-[#facc15] hover:text-white">
+            <a href="https://instagram.com/dimasadhyaksa_" target="_blank" class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-[#facc15] hover:bg-[#facc15] hover:text-white">
               <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <title>Instagram</title>
                 <path
@@ -19,7 +19,7 @@
               </svg>
             </a>
             <!-- X -->
-            <a href="https://twitter.com/sandhikagalih" target="_blank" class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-[#facc15] hover:bg-[#facc15] hover:text-white">
+            <a href="https://twitter.com/" target="_blank" class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-[#facc15] hover:bg-[#facc15] hover:text-white">
               <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <title>Twitter</title>
                 <path
@@ -29,7 +29,7 @@
             </a>
             <!-- LinkedIn -->
             <a
-              href="https://linkedin.com/in/sandhikagalih"
+              href="https://linkedin.com/in/dimas-adhyaksa-2105832b3/"
               target="_blank"
               class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-[#facc15] hover:bg-[#facc15] hover:text-white"
             >

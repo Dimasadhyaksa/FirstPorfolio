@@ -36,7 +36,6 @@
 </template>
 
 <script setup>
-// import gsap from 'gsap'
 const project = ref(null)
 const supabase = useSupabaseClient()
 const datas = ref([])
@@ -50,11 +49,6 @@ const getDatas = async () => {
     datas.value = data
 
     loading.value = false
-    gsap.fromTo(
-        project.value,
-        { opacity: 0 },
-        { opacity: 1, duration: 4, ease: 'power2.out' }
-    )
 }
 onMounted(() => {
     getDatas()
